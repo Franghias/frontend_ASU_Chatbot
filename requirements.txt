@@ -1,0 +1,19 @@
+# frontend/requirements.txt
+
+# --- Streamlit Framework ---
+streamlit>=1.28.0
+
+# --- Configuration & Environment ---
+pydantic-settings>=2.1.0 # <--- ADDED
+python-dotenv>=1.0.0      # <--- UNCOMMENTED
+
+# --- For Making API Calls to the Backend ---
+requests>=2.31.0
+
+# --- Data Display and Manipulation (Optional) ---
+pandas>=2.0.0
+plotly>=5.17.0
+numpy>=1.24.0
+
+# --- Knowledge Graph --- 
+neo4j>=5.10.0
